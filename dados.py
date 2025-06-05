@@ -1,7 +1,17 @@
 import random
 
 class DadoUno:
-    
+    """
+    !Importante: El dado debe ser de 6 lados
+    ?Si el dado no es de 6 lados, se debe lanzar el dado hasta que salga un numero de 1 a 6
+    Clase para lanzar dados
+    Args:
+        * numeros_de_lados (int): Numero de lados del dado
+        * veces_que_se_lanza (int): Numero de veces que se lanza el dado
+        * cantidad_de_dados (int): Numero de dados a lanzar
+    Returns:
+        * suma (int): Suma de los dados
+    """
     def __init__(self, numeros_de_lados, veces_que_se_lanza, cantidad_de_dados):
         self.numeros_de_lados = numeros_de_lados
         self.veces_que_se_lanza = veces_que_se_lanza

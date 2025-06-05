@@ -32,3 +32,14 @@ if __name__ == "__main__": # Si el archivo se ejecuta directamente, se llama a l
     jugar_ruleta() # Llama a la funcion para jugar la ruleta
 
 ```
+
+### Dados
+
+Los dados son un juego de azar en el que se debe adivinar el número que saldrá en el dado.
+
+```python
+import random
+
+def jugar_dados():
+    dado = random.randint(1, 6)
+```
